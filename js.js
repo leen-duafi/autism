@@ -7,9 +7,11 @@ alert("Autism is part of my child, it’s not everything he is. My child is so m
 // nice! change 2 : 
 
 
+
 var autism=prompt("relationship to autism")
 
 console.log(autism)
+
 
 
 var doniate=prompt('would like to donate?');
@@ -21,6 +23,7 @@ else(doniate=="no")
 { document.write('<img src="https://pbs.twimg.com/media/Eqf1WzpXAAEhRa1.jpg">')}
 
 // change 3
+
 
 
 
