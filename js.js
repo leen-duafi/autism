@@ -17,9 +17,13 @@ console.log(autism)
 var doniate=prompt('would like to donate?');
 
 if (doniate=="yes")
-{ window.location = "https://www.autismspeaks.org/?form=donate"}
 
-else(doniate=="no")
+{alert (" we will lead you to page to donate ")
+   window.location = "https://www.autismspeaks.org/?form=donate"}
+
+
+
+else
 { document.write('<img src="https://pbs.twimg.com/media/Eqf1WzpXAAEhRa1.jpg">')}
 
 // change 3
