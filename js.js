@@ -29,12 +29,13 @@ else
 var usfull =prompt("how much do you find our page usefull from 1 to 3 (3 good and 1 bad )");
 
 
-for (var i=0;i<usfull;i++){  if (i==3){i=usfull+1}
+for (var i=1;i<usfull;i++){  if (i>3){break}
 else {
   document.write('<img src="https://www.clipartmax.com/png/middle/437-4371898_tumblr-heart-transparent-love-transparent-background-heart-png.png" width="50px">')}
  
 }
 
+// (i==3){i=usfull+1}
 
 
 
